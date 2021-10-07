@@ -15,6 +15,12 @@ brownie run scripts/multicall.py
 
 # Advanced Example
 
+If you installed brownie with pipx, inject `matplotlib` into the environment. Otherwise, just run `pip install matplotlib`.
+
+```
+pipx inject eth-brownie matplotlib
+```
+
 ```bash
 brownie run scripts/multicall-advanced.py
 ```
